@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="shortcut icon"
+      href="./Home/img/logo-400.png"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- slick carousel  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fancy box -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css" />
+
+    <!-- Animate Style Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- My css -->
+    <link rel="stylesheet" href="./Home/css/style.css" />
+  </head>
+
+  <body id="myBody">
+    <header>
+      <div class="container">
+        <div class="header_content">
+          <div class="header_text">
+            <h1>
+              <a href="">Dinner</a>
+            </h1>
+          </div>
+          <div class="header_menu">
+            <form class="d-flex align-items-center" role="search">
+              <input
+                class="searchBar"
+                onload="equalWidth()"
+                type="search"
+                placeholder="Search here..."
+                aria-label="Search"
+              />
+              <span>
+                <i class="fa fa-search search__icon"></i>
+              </span>
+            </form>
+            <div class="switch text-center">
+              <nav class="align-items-center" id="switchButton">
+                <i class="far fa-moon"></i>
+                <i class="far fa-sun"></i>
+              </nav>
+            </div>
+            <div class="header_nav">
+              <button
+                class="mx-auto py-3"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling"
+                aria-controls="offcanvasScrolling"
+              >
+                <i class="fa fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="header_overlay overlay-scale open offcanvas"
+            data-bs-scroll="true"
+            data-bs-backdrop="false"
+            tabindex="-1"
+            id="offcanvasScrolling"
+            aria-labelledby="offcanvasScrollingLabel"
+          >
+            <div class="offcanvas-content">
+              <button
+                class="btn-close"
+                type="button"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa fa-times"></i>
+              </button>
+            </div>
+            <nav class="menu-header-menu-container">
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog Posts</a></li>
+                <li><a href="#">404 page</a></li>
+                <li><a href="#">Elements</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Landing page</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- banner -->
+      <section class="banner">
+        <div class="banner_content">
+          <div class="container">
+            <div class="banner_info">
+              <h3>The Only Thing We Love More Than Food Is You!</h3>
+              <p class="pr-lg-5 mt-md-4 mt-3">
+                Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+                vitae sit.Ea ipsum sed consequuntur illum facere.
+              </p>
+              <a class="btn btn-white mt-sm-5 mt-4 mr-2" href="#">
+                Read More
+                <span class="fa fa-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- content -->
+      <section class="content">
+        <div class="container">
+          <div class="content_aboutus">
+            <div class="content_left">
+              <h6>About Us</h6>
+              <h3>We found our creative space that is open for you.</h3>
+            </div>
+            <div class="content_right">
+              <p>
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+                amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit
+                amet. Lorem ipsum init dolor sit, amet elit. Dolor ipsum non
+                velit, culpa!Lorem ipsum init dolor sit.
+              </p>
+              <p>
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+                amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit
+                amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- agent -->
+      <section class="agent">
+        <div class="agent_content d-flex align-items-center">
+          <div class="agent_left">
+            <div class="img_left"></div>
+          </div>
+          <div class="agent_right">
+            <div class="right_content">
+              <h6>More than 3000 Restaurants</h6>
+              <h3>Book a table easly at the best price</h3>
+              <p>
+                Vestibulum ante ipsum primis in faucibus orci luctus turpis
+                sodales quis. Integer sit amet mattis quam.Vivamus a ligula quam
+                tesque et libero ut justo ultrices in.
+              </p>
+              <div class="subcribe">
+                <div class="sub_left">
+                  <div class="icon">
+                    <i class="fa fa-thumbs-up"></i>
+                  </div>
+                  <a href="#">Best Deals</a>
+                  <p>
+                    Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+                  </p>
+                </div>
+                <div class="sub_right">
+                  <div class="icon">
+                    <i class="fa fa-cutlery"></i>
+                  </div>
+                  <a href="#">Best Deals</a>
+                  <p>
+                    Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- categories -->
+      <section class="cate">
+        <div class="container">
+          <div class="cate_title text-center">
+            <h6>What's New</h6>
+            <h3>Popular Categories</h3>
+          </div>
+          <div class="cate_content row justify-content-center">
+            <div
+              class="col-lg-4 col-6 content-left-sec gal-slide-grid mt-4 pt-lg-2"
+            >
+              <div class="gal_img">
+                <a href="#check">
+                  <img
+                    src="https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/g1.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="gal_info p-md-5 p-4">
+                <a href="#check">
+                  <h4 class="mt-4 mb-0">Vegetarian</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1">
+                  <span>$350</span>
+                </h6>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-6 content-left-sec gal-slide-grid mt-4 pt-lg-2"
+            >
+              <div class="gal_img">
+                <a href="#check">
+                  <img
+                    src="https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/g2.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="gal_info p-md-5 p-4">
+                <a href="#check">
+                  <h4 class="mt-4 mb-0">Drinks</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1">
+                  <span>$550</span>
+                </h6>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-6 content-left-sec gal-slide-grid mt-4 pt-lg-2"
+            >
+              <div class="gal_img">
+                <a href="#check">
+                  <img
+                    src="https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/g3.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="gal_info p-md-5 p-4">
+                <a href="#check">
+                  <h4 class="mt-4 mb-0">Lunch</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1">
+                  <span>$650</span>
+                </h6>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-6 content-left-sec gal-slide-grid mt-4 pt-lg-2"
+            >
+              <div class="gal_img">
+                <a href="#check">
+                  <img
+                    src="https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/g4.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="gal_info p-md-5 p-4">
+                <a href="#check">
+                  <h4 class="mt-4 mb-0">Bakery</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1">
+                  <span>$550</span>
+                </h6>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-6 content-left-sec gal-slide-grid mt-4 pt-lg-2"
+            >
+              <div class="gal_img">
+                <a href="#check">
+                  <img
+                    src="https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/g5.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="gal_info p-md-5 p-4">
+                <a href="#check">
+                  <h4 class="mt-4 mb-0">Desserts</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1">
+                  <span>$750</span>
+                </h6>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-6 content-left-sec gal-slide-grid mt-4 pt-lg-2"
+            >
+              <div class="gal_img">
+                <a href="#check">
+                  <img
+                    src="https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/g6.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="gal_info p-md-5 p-4">
+                <a href="#check">
+                  <h4 class="mt-4 mb-0">Pizza</h4>
+                </a>
+                <h6 class="mt-sm-2 mt-1">
+                  <span>$850</span>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- features -->
+      <section class="feature">
+        <div class="container py-lg-5 py-md-3 py-3">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-users"></i>
+                  </div>
+                  <div class="info">
+                    <p>01</p>
+                    <h4>
+                      <a href="#check">Soup</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-shield"></i>
+                  </div>
+                  <div class="info">
+                    <p>02</p>
+                    <h4>
+                      <a href="#check">Drinks</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-thermometer-full"></i>
+                  </div>
+                  <div class="info">
+                    <p>03</p>
+                    <h4>
+                      <a href="#check">Pizza</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-american-sign-language-interpreting"></i>
+                  </div>
+                  <div class="info">
+                    <p>04</p>
+                    <h4>
+                      <a href="#check">Breakfast</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-paint-brush"></i>
+                  </div>
+                  <div class="info">
+                    <p>05</p>
+                    <h4>
+                      <a href="#check">Lunch</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-eraser"></i>
+                  </div>
+                  <div class="info">
+                    <p>06</p>
+                    <h4>
+                      <a href="#check">Dinner</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- middle -->
+      <section class="middle">
+        <div class="container py-lg">
+          <div class="mid_content">
+            <h3 class="title px-lg-5">
+              Deliciousness jumping into <br />the mouth.
+            </h3>
+            <div class="mid_button">
+              <a href="#check" class="btn btn-style btn-white">
+                <span>Read More</span>
+                <i class="fa fa-chevron-right"></i>
+              </a>
+              <a href="#check" class="btn btn-style btn-primary">
+                <span>Contact Us</span>
+                <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- statistic -->
+      <section class="statis py-lg-0 py-md-5 py-4">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter_item">
+                <i class="fa-regular fa-building"></i>
+                <div class="counter">15,100</div>
+                <p class="count_text">Branches</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter_item">
+                <i class="fa fa-cutlery"></i>
+                <div class="counter">19,256</div>
+                <p class="count_text">Food Items</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter_item">
+                <i class="fa fa-users"></i>
+                <div class="counter">12,100</div>
+                <p class="count_text">Chefs</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter_item">
+                <i class="fa-regular fa-face-smile"></i>
+                <div class="counter">2,560</div>
+                <p class="count_text">Happy Customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- video -->
+      <section class="vid">
+        <div class="container">
+          <div class="vid_info">
+            <a
+              href="https://player.vimeo.com/video/305185528?h=195bf3cba0"
+              class="popup-with-zoom-anim play-view text-center pl-3"
+              data-fancybox="gallery"
+              data-type="iframe"
+            >
+              <span class="video-play-icon">
+                <span class="fa fa-play"> </span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- posts -->
+      <section class="post">
+        <div class="container">
+          <div class="post_title text-center">
+            <h6>Latest Posts</h6>
+            <h3>Blog Posts</h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 item mt-5">
+              <div class="card">
+                <div class="card_header text-center">
+                  <a
+                    href="https://wp.w3layouts.com/diner/2021/03/01/hello-world/"
+                  >
+                    <div class="thumbnail">
+                      <img
+                        src="https://wp.w3layouts.com/diner/wp-content/uploads/sites/25/2021/03/g1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="button_drink">
+                      <a href="https://wp.w3layouts.com/diner/category/drinks/">
+                        <span>Drinks</span>
+                        <i
+                          class="fa fa-chevron-right"
+                          style="vertical-align: middle"
+                        ></i>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+                <div class="card_body">
+                  <a
+                    href="https://wp.w3layouts.com/diner/2021/03/01/hello-world/"
+                    >The Best Cookie Recipes To Bake This Weekend</a
+                  >
+                  <div class="body_cont mt-3">
+                    <div class="meta_info">
+                      <a
+                        class="img_anchor"
+                        href="https://wp.w3layouts.com/diner/author/w3layouts/"
+                      >
+                        <img
+                          src="https://secure.gravatar.com/avatar/328cc1f23e4a3b73aa60ee6ced1897a1?s=40&d=mm&r=g"
+                          alt=""
+                        />
+                      </a>
+                      <a
+                        href="https://wp.w3layouts.com/diner/author/w3layouts/"
+                        class="layout"
+                        >W3Layouts</a
+                      >
+                    </div>
+                    <a
+                      class="readmore"
+                      href="https://wp.w3layouts.com/diner/2021/03/01/hello-world/"
+                    >
+                      Read More
+                      <span class="fa fa-chevron-right ml-2"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 item mt-5">
+              <div class="card">
+                <div class="card_header text-center">
+                  <a
+                    href="https://wp.w3layouts.com/diner/2021/03/01/hello-world/"
+                  >
+                    <div class="thumbnail">
+                      <img
+                        src="https://wp.w3layouts.com/diner/wp-content/uploads/sites/25/2021/03/g7.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="button_drink">
+                      <a href="https://wp.w3layouts.com/diner/category/drinks/">
+                        <span>Drinks</span>
+                        <i
+                          class="fa fa-chevron-right"
+                          style="vertical-align: middle"
+                        ></i>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+                <div class="card_body">
+                  <a
+                    href="https://wp.w3layouts.com/diner/2021/03/01/hello-world/"
+                    >The Best Cookie Recipes To Bake This Weekend</a
+                  >
+                  <div class="body_cont mt-3">
+                    <div class="meta_info">
+                      <a
+                        class="img_anchor"
+                        href="https://wp.w3layouts.com/diner/author/w3layouts/"
+                      >
+                        <img
+                          src="https://secure.gravatar.com/avatar/328cc1f23e4a3b73aa60ee6ced1897a1?s=40&d=mm&r=g"
+                          alt=""
+                        />
+                      </a>
+                      <a
+                        href="https://wp.w3layouts.com/diner/author/w3layouts/"
+                        class="layout"
+                        >W3Layouts</a
+                      >
+                    </div>
+                    <a
+                      class="readmore"
+                      href="https://wp.w3layouts.com/diner/2021/03/01/hello-world/"
+                    >
+                      Read More
+                      <span class="fa fa-chevron-right ml-2"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 item mt-5">
+              <div class="card">
+                <div class="card_header text-center">
+                  <a
+                    href="https://wp.w3layouts.com/diner/2021/03/01/hello-world/"
+                  >
+                    <div class="thumbnail">
+                      <img
+                        src="https://wp.w3layouts.com/diner/wp-content/uploads/sites/25/2021/03/g5.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="button_drink">
+                      <a href="https://wp.w3layouts.com/diner/category/drinks/">
+                        <span>Drinks</span>
+                        <i
+                          class="fa fa-chevron-right"
+                          style="vertical-align: middle"
+                        ></i>
+                      </a>
+                    </div>
+                  </a>
+                </div>
+                <div class="card_body">
+                  <a
+                    href="https://wp.w3layouts.com/diner/2021/03/01/hello-world/"
+                    >The Best Cookie Recipes To Bake This Weekend</a
+                  >
+                  <div class="body_cont mt-3">
+                    <div class="meta_info">
+                      <a
+                        class="img_anchor"
+                        href="https://wp.w3layouts.com/diner/author/w3layouts/"
+                      >
+                        <img
+                          src="https://secure.gravatar.com/avatar/328cc1f23e4a3b73aa60ee6ced1897a1?s=40&d=mm&r=g"
+                          alt=""
+                        />
+                      </a>
+                      <a
+                        href="https://wp.w3layouts.com/diner/author/w3layouts/"
+                        class="layout"
+                        >W3Layouts</a
+                      >
+                    </div>
+                    <a
+                      class="readmore"
+                      href="https://wp.w3layouts.com/diner/2021/03/01/hello-world/"
+                    >
+                      Read More
+                      <span class="fa fa-chevron-right ml-2"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- client -->
+      <section class="client">
+        <div class="client_content py-5 text-center">
+          <div class="container py-lg-5 py-md-3">
+            <div class="client_title">
+              <h6>Testimonials</h6>
+              <h3>What People Say</h3>
+            </div>
+            <div class="client_carou">
+              <div class="services_carousel">
+                <div class="carou_item">
+                  <div class="test_content">
+                    <a href="#check">
+                      <img
+                        src="https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/team2.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <div class="icon_quote">
+                      <span class="fa fa-quote-left"></span>
+                    </div>
+                    <blockquote>
+                      <p class="quote_cont">
+                        Simply the best. Better than all the rest.
+                      </p>
+                    </blockquote>
+                    <p class="para">
+                      My new site is so much faster and easier to work with than
+                      my old site. They are here to help the customers to get
+                      their success. Nemo sit eos, quod minus eius illo labore.
+                      Pellen tesque libero ut justo, ultrices in ligula.
+                    </p>
+                    <div class="name_info mt-4">
+                      <h3>Alexander sakura</h3>
+                      <p>Customer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carou_item">
+                  <div class="test_content">
+                    <a href="#check">
+                      <img
+                        src="https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/team3.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <div class="icon_quote">
+                      <span class="fa fa-quote-left"></span>
+                    </div>
+                    <blockquote>
+                      <p class="quote_cont">
+                        Thanks for being so honest with me about how this is
+                        impacting you.
+                      </p>
+                    </blockquote>
+                    <p class="para">
+                      My new site is so much faster and easier to work with than
+                      my old site. They are here to help the customers to get
+                      their success. Nemo sit eos, quod minus eius illo labore.
+                      Pellen tesque libero ut justo, ultrices in ligula.
+                    </p>
+                    <div class="name_info mt-4">
+                      <h3>Johnson William</h3>
+                      <p>Customer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carou_item">
+                  <div class="test_content">
+                    <a href="#check">
+                      <img
+                        src="https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/team1.jpg"
+                        alt=""
+                      />
+                    </a>
+                    <div class="icon_quote">
+                      <span class="fa fa-quote-left"></span>
+                    </div>
+                    <blockquote>
+                      <p class="quote_cont">
+                        OMG! I cannot believe. It's Awesome
+                      </p>
+                    </blockquote>
+                    <p class="para">
+                      My new site is so much faster and easier to work with than
+                      my old site. They are here to help the customers to get
+                      their success. Nemo sit eos, quod minus eius illo labore.
+                      Pellen tesque libero ut justo, ultrices in ligula.
+                    </p>
+                    <div class="name_info mt-4">
+                      <h3>David Beckhams</h3>
+                      <p>Customer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carou_item">
+                  <div class="test_content">
+                    <a href="#check">
+                      <img
+                        src="./Home/img/Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg"
+                        alt=""
+                      />
+                    </a>
+                    <div class="icon_quote">
+                      <span class="fa fa-quote-left"></span>
+                    </div>
+                    <blockquote>
+                      <p class="quote_cont">
+                        I can see that you’ve been a loyal customer, that’s
+                        really great…
+                      </p>
+                    </blockquote>
+                    <p class="para">
+                      My new site is so much faster and easier to work with than
+                      my old site. They are here to help the customers to get
+                      their success. Nemo sit eos, quod minus eius illo labore.
+                      Pellen tesque libero ut justo, ultrices in ligula.
+                    </p>
+                    <div class="name_info mt-4">
+                      <h3>Steve Jobs</h3>
+                      <p>Customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- button backToTop -->
+      <a href="#" class="backToTop cd-top text-replace js-cd-top">
+        <i class="fa fa-angle-up"></i>
+      </a>
+    </main>
+    <footer>
+      <div class="footer_main">
+        <div class="footer_content py-5">
+          <div class="container py-lg-4">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-7 pr-lg-">
+                <div class="logo">
+                  <h2>
+                    <a
+                      class="navbar-brand"
+                      href="https://wp.w3layouts.com/diner/"
+                      >Dinner</a
+                    >
+                  </h2>
+                </div>
+                <p>
+                  Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                  ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor
+                  sit amet Semper at elit.
+                </p>
+                <div class="social">
+                  <a href="https://www.facebook.com/truongthinh752003">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://github.com/lltt752003tryaurora">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://www.instagram.com/_trieaurora/">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/l%C3%AA-long-tr%C6%B0%E1%BB%9Dng-th%E1%BB%8Bnh-375696247/"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-5 col-6 mt-sm-0 mt-5">
+                <h6>Categories</h6>
+                <ul>
+                  <li>
+                    <a href="https://wp.w3layouts.com/diner/category/drinks/"
+                      >Drinks</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://wp.w3layouts.com/diner/category/food/"
+                      >Food</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-5 col-6 mt-lg-0 mt-5">
+                <h6>Archives</h6>
+                <ul>
+                  <li>
+                    <a href="https://wp.w3layouts.com/diner/2021/03/"
+                      >March 2021</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-7 mt-lg-0 mt-5">
+                <h6>Subscribe to our Newsletter</h6>
+                <p>
+                  Enter your email and receive the latest news, updates and
+                  special offers from us.
+                </p>
+                <form action="" class="subscribe" method="post">
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="Your Email Address"
+                  />
+                  <button class="w-100 mt-3">Subscribe Now</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="copyright">
+        <div class="container">
+          <div class="row">
+            <p class="col-lg-8">
+              <span
+                >© 2023 Diner. All Rights Reserved | WordPress Theme by</span
+              >
+              <a href="https://www.facebook.com/truongthinh752003"
+                >LeLongTruongThinh</a
+              >
+            </p>
+            <div class="col-lg-4"></div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Slick Carousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"
+      integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".services_carousel").slick({
+          // slidetoShow hiển thị số slide để show ra
+          slidesToShow: 1,
+          // slidetoScroll giúp qua số slide tương ứng
+          slidesToScroll: 1,
+          // arrows giúp ẩn hiện nút mũi tên
+          arrows: false,
+          // hiển thị nút chấm dưới để bấm qua slide
+          dots: true,
+          autoplay: true,
+          autoplayspeed: 30000,
+        });
+      });
+    </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Switch dark light theme -->
+    <script>
+      document.getElementById("switchButton").onclick = function () {
+        //khi button được click thì tìm đến thẻ body có id là myBody
+        // dùng classlist để gọi thuộc tính class của thẻ body
+        //Sử dụng toggle() để thêm hoặc xóa 1 class của thẻ html. Nếu thẻ body không có class dark thì toggle sẽ thêm class dark vào body. Ngược lại, nếu thẻ body đang có class dark thì toogle sẽ xóa class dark đi.
+        document.getElementById("myBody").classList.toggle("dark");
+      };
+    </script>
+
+    <!-- Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // defaultType để cho đúng định dạng
+        //defaultType: "iframe",
+        // hideScrollbar: trượt thanh ngang thấy background phía sau
+        hideScrollbar: false,
+      });
+    </script>
+
+    <!-- Animation to open and close button -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var overlay = document.querySelector(".header_overlay");
+        var openButton = document.querySelector(".header_nav button");
+        var closeButton = document.querySelector(".header_overlay .btn-close");
+
+        openButton.addEventListener("click", function () {
+          overlay.classList.add("open");
+        });
+
+        closeButton.addEventListener("click", function () {
+          overlay.classList.remove("open");
+        });
+      });
+    </script>
+    <!-- Count up js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./Home/js/CountUpJs/jquery.countup.js"></script>
+
+    <script>
+      $(".counter").countUp({
+        // time: adjust sum of time running until completely (milisecond)
+        // delay: if you set the delay to 3, the animation will start after 3 seconds have elapsed. (second)
+        time: 2000,
+        delay: 3,
+      });
+    </script>
+    <!-- Back To Top -->
+    <script src="./Home/js/back-to-top/main.js"></script>
+    <script src="./Home/js/back-to-top/util.js"></script>
+  </body>
+</html>
