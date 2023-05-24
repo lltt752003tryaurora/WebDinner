@@ -805,6 +805,19 @@ span.video-play-icon:hover {
   font-weight: 600;
 }
 
+.card_body .body_cont .readmore {
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #ff6600;
+  color: #fff;
+}
+
+.card_body .body_cont a:hover {
+  color: #ff6600;
+  transition: all 0.5s;
+}
+
 .card {
   position: relative;
   border: none;
@@ -902,12 +915,12 @@ span.video-play-icon:hover {
 .card_body .body_cont .readmore {
   font-size: 16px;
   font-weight: 700;
-  color: #212121;
   transition: all 0.5s;
 }
 
 .card_body .body_cont .readmore:hover {
   color: #ff6600;
+  background-color: wheat;
 }
 
 /* client */
