@@ -1400,6 +1400,11 @@ button.buttonBacktotop a:hover {
   .middle .title {
     font-size: 20px;
   }
+
+  .header_overlay .offcanvas-content button {
+    position: absolute;
+    right: 15px;
+  }
 }
 
 @media screen and (max-width: 320px) {

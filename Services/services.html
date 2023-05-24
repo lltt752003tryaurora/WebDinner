@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dinner Services Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="../Home/img/logo-400.png"
+      type="image/x-icon"
+    />
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../Home/css/style.css" />
+    <link rel="stylesheet" href="../About/css/about.css" />
+    <link rel="stylesheet" href="./css/services.css" />
+  </head>
+
+  <body id="myBody">
+    <header>
+      <div class="container">
+        <div class="header_content">
+          <div class="header_text">
+            <h1>
+              <a href="">Dinner</a>
+            </h1>
+          </div>
+          <div class="header_menu">
+            <form class="d-flex align-items-center" role="search">
+              <input
+                class="searchBar"
+                onload="equalWidth()"
+                type="search"
+                placeholder="Search here..."
+                aria-label="Search"
+              />
+              <span>
+                <i class="fa fa-search search__icon"></i>
+              </span>
+            </form>
+            <div class="switch text-center">
+              <nav class="align-items-center" id="switchButton">
+                <i class="far fa-moon"></i>
+                <i class="far fa-sun"></i>
+              </nav>
+            </div>
+            <div class="header_nav">
+              <button
+                class="mx-auto py-3"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling"
+                aria-controls="offcanvasScrolling"
+              >
+                <i class="fa fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="header_overlay overlay-scale open offcanvas"
+            data-bs-scroll="true"
+            data-bs-backdrop="false"
+            tabindex="-1"
+            id="offcanvasScrolling"
+            aria-labelledby="offcanvasScrollingLabel"
+          >
+            <div class="offcanvas-content">
+              <button
+                class="btn-close"
+                type="button"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="fa fa-times"></i>
+              </button>
+            </div>
+            <nav class="menu-header-menu-container">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../About/about.html">About</a></li>
+                <li><a href="../Services/services.html">Services</a></li>
+                <li><a href="#">Blog Posts</a></li>
+                <li><a href="#">404 page</a></li>
+                <li><a href="#">Elements</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Landing page</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- banner -->
+      <section class="banner">
+        <div class="banner_content">
+          <div class="container">
+            <div class="banner_info">
+              <div class="custom_path">
+                <a href="../index.html">Home</a>
+                <i class="fa-solid fa-angles-right"></i>
+                <span>Services Page</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- content -->
+      <section class="content">
+        <div class="container">
+          <div class="content_aboutus">
+            <div class="content_left">
+              <h6>About Us</h6>
+              <h3>We found our creative space that is open for you.</h3>
+            </div>
+            <div class="content_right">
+              <p>
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+                amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit
+                amet. Lorem ipsum init dolor sit, amet elit. Dolor ipsum non
+                velit, culpa!Lorem ipsum init dolor sit.
+              </p>
+              <p>
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+                amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit
+                amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- features -->
+      <section class="feature">
+        <div class="container py-lg-5 py-md-3 py-3">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-users"></i>
+                  </div>
+                  <div class="info">
+                    <p>01</p>
+                    <h4>
+                      <a href="#check">Soup</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-shield"></i>
+                  </div>
+                  <div class="info">
+                    <p>02</p>
+                    <h4>
+                      <a href="#check">Drinks</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-thermometer-full"></i>
+                  </div>
+                  <div class="info">
+                    <p>03</p>
+                    <h4>
+                      <a href="#check">Pizza</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-american-sign-language-interpreting"></i>
+                  </div>
+                  <div class="info">
+                    <p>04</p>
+                    <h4>
+                      <a href="#check">Breakfast</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-paint-brush"></i>
+                  </div>
+                  <div class="info">
+                    <p>05</p>
+                    <h4>
+                      <a href="#check">Lunch</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+              <div class="fea_box">
+                <div class="box_content">
+                  <div class="icon">
+                    <i class="fa fa-eraser"></i>
+                  </div>
+                  <div class="info">
+                    <p>06</p>
+                    <h4>
+                      <a href="#check">Dinner</a>
+                    </h4>
+                  </div>
+                </div>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet consectetur ipsum elit. Qui
+                  eligendi vitae sit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- middle -->
+      <section class="middle">
+        <div class="container py-lg">
+          <div class="mid_content">
+            <h3 class="title px-lg-5">
+              Deliciousness jumping into <br />the mouth.
+            </h3>
+            <div class="mid_button">
+              <a href="#check" class="btn btn-style btn-white">
+                <span>Read More</span>
+                <i class="fa fa-chevron-right"></i>
+              </a>
+              <a href="#check" class="btn btn-style btn-primary">
+                <span>Contact Us</span>
+                <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- pricing -->
+      <section class="pricing py-5">
+        <div class="container py-lg-5 py-md-3 py-2">
+          <div class="pricing_header text-center">
+            <h6>Plans</h6>
+            <h3 class="mb-5">Our Menu</h3>
+          </div>
+          <div class="row divide">
+            <div class="col-lg-6 divide_right menu_section pr-lg-5">
+              <div class="menu_item">
+                <div class="mb-4">
+                  <div class="row border_dot">
+                    <div class="col-8">
+                      <h6>Slow Cooked Egg</h6>
+                    </div>
+                    <div class="col-4">
+                      <h6>$79.50</h6>
+                    </div>
+                  </div>
+                  <div class="menu_foreign">
+                    <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu_item">
+                <div class="mb-4">
+                  <div class="row border_dot">
+                    <div class="col-8">
+                      <h6>Ravioli</h6>
+                    </div>
+                    <div class="col-4">
+                      <h6>$63.75</h6>
+                    </div>
+                  </div>
+                  <div class="menu_foreign">
+                    <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu_item">
+                <div class="mb-4">
+                  <div class="row border_dot">
+                    <div class="col-8">
+                      <h6>Sweet Heat Salad</h6>
+                    </div>
+                    <div class="col-4">
+                      <h6>$58.25</h6>
+                    </div>
+                  </div>
+                  <div class="menu_foreign">
+                    <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu_item">
+                <div class="mb-4">
+                  <div class="row border_dot">
+                    <div class="col-8">
+                      <h6>Chicken Salad</h6>
+                    </div>
+                    <div class="col-4">
+                      <h6>$37.25</h6>
+                    </div>
+                  </div>
+                  <div class="menu_foreign">
+                    <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 menu_section">
+              <div class="menu_item">
+                <div class="mb-4">
+                  <div class="row border_dot">
+                    <div class="col-8">
+                      <h6>Spinach Chicken</h6>
+                    </div>
+                    <div class="col-4">
+                      <h6>$79.25</h6>
+                    </div>
+                  </div>
+                  <div class="menu_foreign">
+                    <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu_item">
+                <div class="mb-4">
+                  <div class="row border_dot">
+                    <div class="col-8">
+                      <h6>Tomahawk Steak</h6>
+                    </div>
+                    <div class="col-4">
+                      <h6>$70.50</h6>
+                    </div>
+                  </div>
+                  <div class="menu_foreign">
+                    <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu_item">
+                <div class="mb-4">
+                  <div class="row border_dot">
+                    <div class="col-8">
+                      <h6>Cornish Turbot</h6>
+                    </div>
+                    <div class="col-4">
+                      <h6>$58.25</h6>
+                    </div>
+                  </div>
+                  <div class="menu_foreign">
+                    <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu_item">
+                <div class="mb-4">
+                  <div class="row border_dot">
+                    <div class="col-8">
+                      <h6>Permanent Waving</h6>
+                    </div>
+                    <div class="col-4">
+                      <h6>$79.50</h6>
+                    </div>
+                  </div>
+                  <div class="menu_foreign">
+                    <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- button backToTop -->
+      <a href="#" class="backToTop cd-top text-replace js-cd-top">
+        <i class="fa fa-angle-up"></i>
+      </a>
+    </main>
+    <footer>
+      <div class="footer_main">
+        <div class="footer_content py-5">
+          <div class="container py-lg-4">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-7 pr-lg-">
+                <div class="logo">
+                  <h2>
+                    <a
+                      class="navbar-brand"
+                      href="https://wp.w3layouts.com/diner/"
+                      >Dinner</a
+                    >
+                  </h2>
+                </div>
+                <p>
+                  Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                  ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor
+                  sit amet Semper at elit.
+                </p>
+                <div class="social">
+                  <a href="https://www.facebook.com/truongthinh752003">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="https://github.com/lltt752003tryaurora">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://www.instagram.com/_trieaurora/">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/l%C3%AA-long-tr%C6%B0%E1%BB%9Dng-th%E1%BB%8Bnh-375696247/"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-5 col-6 mt-sm-0 mt-5">
+                <h6>Categories</h6>
+                <ul>
+                  <li>
+                    <a href="https://wp.w3layouts.com/diner/category/drinks/"
+                      >Drinks</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://wp.w3layouts.com/diner/category/food/"
+                      >Food</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-5 col-6 mt-lg-0 mt-5">
+                <h6>Archives</h6>
+                <ul>
+                  <li>
+                    <a href="https://wp.w3layouts.com/diner/2021/03/"
+                      >March 2021</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-7 mt-lg-0 mt-5">
+                <h6>Subscribe to our Newsletter</h6>
+                <p>
+                  Enter your email and receive the latest news, updates and
+                  special offers from us.
+                </p>
+                <form action="" class="subscribe" method="post">
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="Your Email Address"
+                  />
+                  <button class="w-100 mt-3">Subscribe Now</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="copyright">
+        <div class="container">
+          <div class="row">
+            <p class="col-lg-8">
+              <span
+                >© 2023 Diner. All Rights Reserved | WordPress Theme by</span
+              >
+              <a href="https://www.facebook.com/truongthinh752003"
+                >LeLongTruongThinh</a
+              >
+            </p>
+            <div class="col-lg-4"></div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Switch dark light theme -->
+    <script>
+      document.getElementById("switchButton").onclick = function () {
+        //khi button được click thì tìm đến thẻ body có id là myBody
+        // dùng classlist để gọi thuộc tính class của thẻ body
+        //Sử dụng toggle() để thêm hoặc xóa 1 class của thẻ html. Nếu thẻ body không có class dark thì toggle sẽ thêm class dark vào body. Ngược lại, nếu thẻ body đang có class dark thì toogle sẽ xóa class dark đi.
+        document.getElementById("myBody").classList.toggle("dark");
+      };
+    </script>
+
+    <!-- Animation to open and close button -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var overlay = document.querySelector(".header_overlay");
+        var openButton = document.querySelector(".header_nav button");
+        var closeButton = document.querySelector(".header_overlay .btn-close");
+
+        openButton.addEventListener("click", function () {
+          overlay.classList.add("open");
+        });
+
+        closeButton.addEventListener("click", function () {
+          overlay.classList.remove("open");
+        });
+      });
+    </script>
+
+    <!-- Back To Top -->
+    <script src="../Home/js/back-to-top/main.js"></script>
+    <script src="../Home/js/back-to-top/util.js"></script>
+  </body>
+</html>
