@@ -517,6 +517,7 @@ header .header_content {
   font-weight: 700;
 }
 
+
 .cate_content .gal_info h6 {
   font-size: 18px;
   line-height: 25px;
@@ -526,10 +527,20 @@ header .header_content {
 
 .cate_content .gal_info h6 span {
   font-weight: 600;
-  color: #ffc600;
+  color: #fff;
   font-size: 18px;
   letter-spacing: 1px;
 }
+
+.cate_content .gal_info {
+  opacity: 0;
+} 
+ 
+.content-left-sec:hover .gal_info {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
 
 /* features */
 
