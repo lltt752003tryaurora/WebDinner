@@ -500,6 +500,11 @@ header .header_content {
   z-index: 99;
 }
 
+.cate_content .gal_info:hover a h4{
+  color: #ff6600;
+  transition: all 0.5s;
+}
+
 .cate_content .gal_info h4 {
   font-size: 22px;
   line-height: 30px;
